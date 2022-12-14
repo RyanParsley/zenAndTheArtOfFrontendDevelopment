@@ -34,9 +34,25 @@ decide to read it, I'd like to hear about that too.
 
 
 Douglass Crockford, author of Javascript the good parts, mentioned "the abyss" in
-a presentation. And said No matter how salty/grumpy/cantacerious the dev...
+a presentation. And said No matter how salty/grumpy/cantankerous the dev...
 trust that they are an optimist because they keep diving into that abyss of
 uncertainty knowing they'll get back out.
+
+---
+class: middle, center, title
+
+# Curiosity
+
+---
+
+> That’s the way the world keeps on happening. Be interested in it.
+
+???
+
+Curiosity is really important.
+
+
+It would be easy to paraphrase the narrator's stance as "If you want something done right, you have to do it yourself" but I feel the real take away should be "If something is important, you should strive to understand it."
 
 ---
 
@@ -48,6 +64,98 @@ uncertainty knowing they'll get back out.
 A really important moment in Robert's past is a time when he knew little of
 maintenance and trusted mechanics to fix his bike as they made a series of
 careless mistakes further damaging his bike. 
+
+---
+
+> You follow these little discrepancies long enough and they sometimes open up
+> into huge revelations.
+
+???
+
+Probably a good segue for performance.
+
+---
+> We are all of us very arrogant and conceited about running down other people’s
+> ghosts but just as ignorant and barbaric and superstitious about our own.
+
+???
+
+There's a 
+
+OOP vs Functional... vs procedural for that matter.
+
+---
+
+> The real purpose of the scientific method is to make sure nature hasn’t misled
+> you into thinking you know something you actually don’t know.
+
+???
+
+Measure all the things. Performance, user interaction, anything you can to tread
+all bits of the gig as an experiment.
+
+---
+class: middle, center, title
+
+# Classical vs Romantic
+
+???
+
+John's handlebars grew loose and he was unable to tighten them. The narrator
+recommended an aluminum shim made from a beer can. John refused this advice
+"concerned about perception more than efficacy". This is the start of the
+narrator discussing  2 realities: artistic appearance and scientific
+explanation.
+
+abstract vs concrete.
+
+classical (scientific, rational, reasoning)
+romantic (artistic, intuitive, imaginative, inspirational)
+
+I like about this book that extremes are not celebrated. I see people take
+personality tests and brag that they're team green or whatever but the point is
+to see your bias so you can avoid these pitfalls. Or be aware of how avoid
+tricky situations when talking with a coworker who's wired differently than you
+are. 
+
+---
+class: middle, center, title
+
+# The Knife
+
+???
+
+Phaedrus was hyperrational and this was clearly a character flaw as well as his super power.
+
+The "knife" of analysis cutting ideas into systems to sort/categorize is remarably on point to how we use abstractions and metaphors to write code.
+
+---
+class: middle, center, title
+
+# Quality
+
+---
+class: middle, center
+
+> "Quality is a characteristic of thought and statement that is recognized by a
+> non-thinking process. Because definitions are a product of rigid, formal
+> thinking, quality cannot&nbsp;be&nbsp;defined."
+>
+> The definition was a refusal to define.
+
+???
+
+---
+
+> The test of the machine is the satisfaction it gives you. There isn't any
+> other test. If the machine produces tranquility it's right. If it disturbs you
+> it's wrong until either the machine or your mind is changed.
+
+???
+
+Not about testing, but about linting and policies playing out over time.
+
+formly makes sense here.
 
 ---
 
@@ -66,7 +174,13 @@ ideas that make sense to me as I think about quality.
 
 ---
 
-> The pencil is mightier than the pen.
+> We take a handful of sand from the endless landscape of awareness around us
+> and call that handful of sand the world.
+
+???
+
+Be aware of js idioms. We're not writing C, even though the dialect is derived
+from C.
 
 ---
 
@@ -79,6 +193,7 @@ Something about paying down tech-debt and how it's not bad at it's nature, but
 it's bad.
 
 ---
+
 > The solutions all are simple—after you have arrived at them. But they’re
 > simple only when you know already what they are.
 
@@ -86,6 +201,34 @@ it's bad.
 A brutal thing about this gig is solving a problem and not feeling proud of
 distilling down because your solution appears simple. Despite the fact that that
 is a hard thing to pull off.
+
+---
+
+> Poorly designed code usually takes more code to do the same thing, often
+> because the code quite literally does the same thing in several places.
+>
+> ...
+>
+> The more code there is, the harder it is to modify correctly
+> -- _Refactoring_ (Fowler)
+
+---
+
+class: links
+
+# Further reading
+
+* [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd#.9g51h5stk)
+* [Martin Fowler: Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
+* [https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests](https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests)
+
+> “It’s in Apple’s DNA that technology alone is not enough — it’s technology
+> married with liberal arts, married with the humanities, that yields us the
+> results that make our heart sing.” --Steve Jobs
+
+---
+
+> The pencil is mightier than the pen.
 
 ---
 
@@ -99,60 +242,3 @@ on why make angular look like java?
 I'm not a fan of how angular makes typescript to look like java. I like the bits
 of javascript that don't look like java best :D
 
----
-
-> We take a handful of sand from the endless landscape of awareness around us
-and call that handful of sand the world.
-
-???
-
-Be aware of js idioms. We're not writing C, even though the dialect is derived
-from C.
-
----
-
-> You follow these little discrepancies long enough and they sometimes open up
-into huge revelations.
-
-???
-
-Probably a good segue for performance.
-
----
-> That’s the way the world keeps on happening. Be interested in it.
-
-???
-
-Curiosity is really important.
-
----
-
-> The real purpose of the scientific method is to make sure nature hasn’t misled
-> you into thinking you know something you actually don’t know.
-
-???
-
-Measure all the things. Performance, user interaction, anything you can to tread
-all bits of the gig as an experiment.
-
----
-
-> The test of the machine is the satisfaction it gives you. There isn't any
-other test. If the machine produces tranquility it's right. If it disturbs you
-it's wrong until either the machine or your mind is changed.
-
-???
-
-Not about testing, but about linting and policies playing out over time.
-
-formly makes sense here.
-
----
-
-class: links
-
-# Further reading
-
-* [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd#.9g51h5stk)
-* [Martin Fowler: Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
-* [https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests](https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests)
