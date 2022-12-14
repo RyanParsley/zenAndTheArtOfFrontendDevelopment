@@ -1,32 +1,154 @@
 name: Zen and the Art of Frontend Development
 class: middle, center, title
 
-# Zen and the art of Frontend Development
+# Zen and the Art of ~~Motorcycle Maintenance~~ Frontend Development:
+## An Inquiry into Values
 
 ### Ryan Parsley
-#### August 21, 2022
+#### August 23, 2022
 
 ???
 
+This presentation will borrow ideas from a book I like. I think it's a good
+book with at title that may be a bit misleading. There's scant little about zen
+in it and it's not "about" motorcycle maintenance, but motorcycle maintenance is
+nice metaphor for the author to tease out over the course of the story. The
+subtitle is more telling of what I like about the book.
+
+At it's surface the book is about a road trip, but the narrator indulges in
+inner monologue about quality. I'll do my best to not spoil the book as I
+shamelessly copy/paste many lines to use as a framing device fore my
+presentation on values and quality.
+
 ---
 
-# TLDR
-
----
-
-“We take a handful of sand from the endless landscape of awareness around us and call that handful of sand the world.”
+> Motorcycle maintenance gets frustrating. Angering. Infuriating. That's what
+> makes it interesting.
 
 ???
 
+I believe these quotes will be interesting to you weather you've read (or like)
+the book. If you have read it, I'd be happy to chat in teams on if you liked it
+or not (It seems a bit polarizing) and if you get curious about the book and
+decide to read it, I'd like to hear about that too.
+
+
+Douglass Crockford, author of Javascript the good parts, mentioned "the abyss" in
+a presentation. And said No matter how salty/grumpy/cantacerious the dev...
+trust that they are an optimist because they keep diving into that abyss of
+uncertainty knowing they'll get back out.
+
 ---
 
-"Once a developer learns C, they can write C in pretty much any language."
+> Caring about what you are doing is considered either unimportant or taken for
+> granted.
 
 ???
 
-Learn idioms.
+A really important moment in Robert's past is a time when he knew little of
+maintenance and trusted mechanics to fix his bike as they made a series of
+careless mistakes further damaging his bike. 
 
 ---
+
+> Quality is just the focal point around which a lot of intellectual furniture
+> is getting rearranged.
+
+???
+
+Riff on how there's not one way to build quality software, but patterns are nice
+ways to put it on auto-pilot if you don't know any better. Also, you should be
+careful to not blindly follow patterns that "don't fit"
+
+You're not going to agree with some of what I say on a subjective or style
+level. That's cool. I'm not claiming to be "doing it right", I just have some
+ideas that make sense to me as I think about quality.
+
+---
+
+> The pencil is mightier than the pen.
+
+---
+
+> One thing about pioneers that you don’t hear mentioned is that they are
+> invariably, by their nature, mess-makers.
+
+???
+
+Something about paying down tech-debt and how it's not bad at it's nature, but
+it's bad.
+
+---
+> The solutions all are simple—after you have arrived at them. But they’re
+> simple only when you know already what they are.
+
+???
+A brutal thing about this gig is solving a problem and not feeling proud of
+distilling down because your solution appears simple. Despite the fact that that
+is a hard thing to pull off.
+
+---
+
+> (What makes his world so hard to see clearly is not its strangeness but its
+> usualness). Familiarity can blind you too.
+
+???
+
+on why make angular look like java?
+
+I'm not a fan of how angular makes typescript to look like java. I like the bits
+of javascript that don't look like java best :D
+
+---
+
+> We take a handful of sand from the endless landscape of awareness around us
+and call that handful of sand the world.
+
+???
+
+Be aware of js idioms. We're not writing C, even though the dialect is derived
+from C.
+
+---
+
+> You follow these little discrepancies long enough and they sometimes open up
+into huge revelations.
+
+???
+
+Probably a good segue for performance.
+
+---
+> That’s the way the world keeps on happening. Be interested in it.
+
+???
+
+Curiosity is really important.
+
+---
+
+> The real purpose of the scientific method is to make sure nature hasn’t misled
+> you into thinking you know something you actually don’t know.
+
+???
+
+Measure all the things. Performance, user interaction, anything you can to tread
+all bits of the gig as an experiment.
+
+---
+
+> The test of the machine is the satisfaction it gives you. There isn't any
+other test. If the machine produces tranquility it's right. If it disturbs you
+it's wrong until either the machine or your mind is changed.
+
+???
+
+Not about testing, but about linting and policies playing out over time.
+
+formly makes sense here.
+
+---
+
 class: links
 
 # Further reading
