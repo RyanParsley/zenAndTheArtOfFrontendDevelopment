@@ -4,6 +4,13 @@
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
+    <meta property="og:title" content=""/>
+    
+    
+    
+    
+    
+    
     <link rel="stylesheet" href="style.css" />
     
     <style type="text/css">
@@ -23,40 +30,263 @@ h1, h2, h3 {
   background-color: #272822;
 }
 
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
     </style>
   </head>
   <body>
-    <textarea id="source">name: Zen and the Art of Frontend Development
+    <textarea id="source" style="display: none">name: Zen and the Art of Frontend Development
 class: middle, center, title
 
-# Zen and the art of Frontend Development
+# Zen and the Art of ~~Motorcycle Maintenance~~ Frontend Development:
+## An Inquiry into Values
 
 ### Ryan Parsley
-#### August 21, 2022
+#### August 23, 2022
+
+???
+
+This presentation will borrow ideas from a book I like. I think it's a good
+book with at title that may be a bit misleading. There's scant little about zen
+in it and it's not "about" motorcycle maintenance, but motorcycle maintenance is
+nice metaphor for the author to tease out over the course of the story. The
+subtitle is more telling of what I like about the book.
+
+At it's surface the book is about a road trip, but the narrator indulges in
+inner monologue about quality. I'll do my best to not spoil the book as I
+shamelessly copy/paste many lines to use as a framing device fore my
+presentation on values and quality.
+
+---
+
+> Motorcycle maintenance gets frustrating. Angering. Infuriating. That's what
+> makes it interesting.
+
+???
+
+I believe these quotes will be interesting to you weather you've read (or like)
+the book. If you have read it, I'd be happy to chat in teams on if you liked it
+or not (It seems a bit polarizing) and if you get curious about the book and
+decide to read it, I'd like to hear about that too.
+
+
+Douglass Crockford, author of Javascript the good parts, mentioned "the abyss" in
+a presentation. And said No matter how salty/grumpy/cantankerous the dev...
+trust that they are an optimist because they keep diving into that abyss of
+uncertainty knowing they'll get back out.
+
+---
+class: middle, center, title
+
+# Curiosity
+
+---
+
+> That’s the way the world keeps on happening. Be interested in it.
+
+???
+
+Curiosity is really important.
+
+
+It would be easy to paraphrase the narrator's stance as "If you want something done right, you have to do it yourself" but I feel the real take away should be "If something is important, you should strive to understand it."
+
+---
+
+> Caring about what you are doing is considered either unimportant or taken for
+> granted.
+
+???
+
+A really important moment in Robert's past is a time when he knew little of
+maintenance and trusted mechanics to fix his bike as they made a series of
+careless mistakes further damaging his bike. 
+
+---
+
+> You follow these little discrepancies long enough and they sometimes open up
+> into huge revelations.
+
+???
+
+Probably a good segue for performance.
+
+---
+> We are all of us very arrogant and conceited about running down other people’s
+> ghosts but just as ignorant and barbaric and superstitious about our own.
+
+???
+
+There's a 
+
+OOP vs Functional... vs procedural for that matter.
+
+---
+
+> The real purpose of the scientific method is to make sure nature hasn’t misled
+> you into thinking you know something you actually don’t know.
+
+???
+
+Measure all the things. Performance, user interaction, anything you can to tread
+all bits of the gig as an experiment.
+
+---
+class: middle, center, title
+
+# Classical vs Romantic
+
+???
+
+John's handlebars grew loose and he was unable to tighten them. The narrator
+recommended an aluminum shim made from a beer can. John refused this advice
+"concerned about perception more than efficacy". This is the start of the
+narrator discussing  2 realities: artistic appearance and scientific
+explanation.
+
+abstract vs concrete.
+
+classical (scientific, rational, reasoning)
+romantic (artistic, intuitive, imaginative, inspirational)
+
+I like about this book that extremes are not celebrated. I see people take
+personality tests and brag that they're team green or whatever but the point is
+to see your bias so you can avoid these pitfalls. Or be aware of how avoid
+tricky situations when talking with a coworker who's wired differently than you
+are. 
+
+---
+class: middle, center, title
+
+# The Knife
+
+???
+
+Phaedrus was hyperrational and this was clearly a character flaw as well as his super power.
+
+The "knife" of analysis cutting ideas into systems to sort/categorize is remarably on point to how we use abstractions and metaphors to write code.
+
+---
+class: middle, center, title
+
+# Quality
+
+---
+class: middle, center
+
+> "Quality is a characteristic of thought and statement that is recognized by a
+> non-thinking process. Because definitions are a product of rigid, formal
+> thinking, quality cannot&nbsp;be&nbsp;defined."
+>
+> The definition was a refusal to define.
 
 ???
 
 ---
 
-# TLDR
+> The test of the machine is the satisfaction it gives you. There isn't any
+> other test. If the machine produces tranquility it's right. If it disturbs you
+> it's wrong until either the machine or your mind is changed.
+
+???
+
+Not about testing, but about linting and policies playing out over time.
+
+formly makes sense here.
 
 ---
 
+> Quality is just the focal point around which a lot of intellectual furniture
+> is getting rearranged.
+
+???
+
+Riff on how there's not one way to build quality software, but patterns are nice
+ways to put it on auto-pilot if you don't know any better. Also, you should be
+careful to not blindly follow patterns that "don't fit"
+
+You're not going to agree with some of what I say on a subjective or style
+level. That's cool. I'm not claiming to be "doing it right", I just have some
+ideas that make sense to me as I think about quality.
+
 ---
+
+> We take a handful of sand from the endless landscape of awareness around us
+> and call that handful of sand the world.
+
+???
+
+Be aware of js idioms. We're not writing C, even though the dialect is derived
+from C.
+
+---
+
+> One thing about pioneers that you don’t hear mentioned is that they are
+> invariably, by their nature, mess-makers.
+
+???
+
+Something about paying down tech-debt and how it's not bad at it's nature, but
+it's bad.
+
+---
+
+> The solutions all are simple—after you have arrived at them. But they’re
+> simple only when you know already what they are.
+
+???
+A brutal thing about this gig is solving a problem and not feeling proud of
+distilling down because your solution appears simple. Despite the fact that that
+is a hard thing to pull off.
+
+---
+
+> Poorly designed code usually takes more code to do the same thing, often
+> because the code quite literally does the same thing in several places.
+>
+> ...
+>
+> The more code there is, the harder it is to modify correctly
+> -- _Refactoring_ (Fowler)
+
+---
+
 class: links
 
 # Further reading
 
 * [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd#.9g51h5stk)
 * [Martin Fowler: Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
-* [https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 * [https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests](https://kentcdodds.com/blog/unit-vs-integration-vs-e2e-tests)
-* [https://www.cypress.io/blog/2019/08/02/guest-post-angular-adding-cypress-ui-tests-to-your-devops-pipeline/](https://www.cypress.io/blog/2019/08/02/guest-post-angular-adding-cypress-ui-tests-to-your-devops-pipeline/)
-* [https://moduscreate.com/blog/protractor-and-jasmine-data-provider-write-once-test-many/](https://moduscreate.com/blog/protractor-and-jasmine-data-provider-write-once-test-many/)
-* [Protractor's Official Typescript Examples](https://github.com/angular/protractor/tree/5.4.1/exampleTypescript)
-* [Code Repo From Testing Angular Applications](https://github.com/testing-angular-applications/testing-angular-applications/tree/master/chapter09)
-* [https://www.blackpepper.co.uk/blog/if-youre-using-browser-sleep-in-your-cucumber-protractor-selenium-tests-youre-doing-it-wrong](https://www.blackpepper.co.uk/blog/if-youre-using-browser-sleep-in-your-cucumber-protractor-selenium-tests-youre-doing-it-wrong)
+
+> “It’s in Apple’s DNA that technology alone is not enough — it’s technology
+> married with liberal arts, married with the humanities, that yields us the
+> results that make our heart sing.” --Steve Jobs
+
+---
+
+> The pencil is mightier than the pen.
+
+---
+
+> (What makes his world so hard to see clearly is not its strangeness but its
+> usualness). Familiarity can blind you too.
+
+???
+
+on why make angular look like java?
+
+I'm not a fan of how angular makes typescript to look like java. I like the bits
+of javascript that don't look like java best :D
+
 </textarea>
+    <div style="z-index: -1; position: fixed; display: flex; align-items: center; gap: 4px;">
+      <svg style="animation: spin 1s linear infinite; width: 18px; height: 18px;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+        <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+      </svg>
+      <span>loading...</span>
+    </div>
     <script src="remark.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js"></script>
